@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #181818;
+            color: white;
+        }
+        .name-lable::before{
+            content: ""; 
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            background-color: red;
+        }
+        .entry-lable:focus{
+            width: 200px;
+            height: 20px;
+            background-color: rebeccapurple;
+        }
+
+        .btn-primary{
+            background-color:#3535e5 ;
+            color: #ffffff;
+            padding: 5px 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+        .btn-primary:hover{
+            background-color: white;
+            color:#3535e5;
+            padding: 5px 20px;
+            border: 1px solid #3535e5;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+        a:link{
+            color: white;
+        }
+        a:hover{
+            color: #fedd24;
+        }  
+        a:visited{
+            color: #9434ed;
+        }
+        
+        /* li:nth-child(3n +1){
+            background-color: #5b55fb;
+        } */
+/*       
+        li:nth-child(even){
+            background-color: #c12ce3;
+        }
+       */
+       li:first-child{
+        background-color: #5472f6;
+       }
+       li:last-child{
+        background-color: #ef5bea;
+       }
+       li{
+        list-style-type: upper-roman;
+       }
+       .box1{
+        border: 1px solid red;
+        width: 100px;
+        height:150px;
+        position: fixed;
+        
+       }
+       .box2{
+        border: 1px solid red;
+        width: 100px;
+        height:150px;
+        position: sticky;
+        float: right;
+       }
+    </style>
+</head>
+<body>
+    <label for="name-lable" class="name-lable">Name</label>
+    <input type="text" name="name" >
+
+    <label for="email-lable" >Email</label>
+    <input class="entry-lable" type="text" name="name" >
+
+    <button class= "btn-primary" data-tooltip="Tooltip" type="submit" >submit</button>
+    <a href="google.com">Google</a>
+
+    <ul>
+        <li>ONE</li>
+        <li>TWO</li>
+        <li>THREE</li>
+        <li>FOURE</li>
+        <li>FIVE</li>
+        <li>SIX</li>
+        <li>SEVEN</li>
+        <li>EIGHT</li>
+        <li>NINE</li>
+        <li>TEN</li>
+    </ul>
+    <p class="box1">
+        ONE
+    </p>
+    <p class="box2">
+        TWO
+    </p>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</body>
+</html>
