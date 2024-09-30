@@ -1,0 +1,111 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+.container {
+    margin: 10px 70px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.list {
+    display: flex;
+    flex-grow: 2;
+    gap: 30px;
+    list-style: none;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav-button{
+    padding: 5px 30px;
+    border: 1px solid #212121;
+    border-radius: 6px;
+    color: #212121;
+    background-color: white;
+}
+.search-icon{
+    margin: 6px;
+}
+
+/* hero content */
+
+.hero-container{
+    margin-top: 130px;
+}
+.hero-container div {
+    margin-bottom: 60px;
+}
+.square{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    z-index: -1;
+}
+.star {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+}
+.hero-containers > span:nth-child(2n){
+    position: static;
+    bottom: 10px;
+}
+.globe{
+    position: absolute;
+    top: 150px;
+    right: 40%;
+    
+}
+.hero-container-right{
+    width: 800px;
+    position: absolute;
+    right: 60px;
+    top: 300px;
+    text-align: center;
+}
+.hero-heading {
+    font-size: 80px;
+    font-weight: bold;
+}
+.hero-description {
+    color: #808080;
+    margin-bottom: 60px;
+    
+}
+.button-email {
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 20px;
+}
+.button-join{
+    background-color: rgb(6, 6, 6);
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 20px;
+    color: white;
+}
+/* .hero-container + span{
+    position: absolute;
+    top:300px ;
+    right: 30px;
+} */
+/* .star {
+    position: absolute;
+    top:10 ;
+    right: 30px;
+} */
+
+
+
+/* .globe {
+    position: relative;
+    top: 100px;
+    left: 700px;
+   
+} */
