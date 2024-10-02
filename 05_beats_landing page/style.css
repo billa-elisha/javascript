@@ -1,0 +1,126 @@
+*::after,*::before,*{
+    background-color: rgb(8, 4, 12);
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* the overall page */
+.container {
+    margin: 0 80px 0 150px;
+}
+/* the logo and the earphone  */
+.top-section{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    position: relative;
+    bottom: 630px;
+}
+/* the nave section */
+.list {
+    display: flex;
+    gap: 50px;
+    
+}
+.nav-item{
+    list-style: none;
+}
+.right-section{
+    margin: 30px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom:30px ;
+    align-items: center;
+}
+.btn {
+    background-color: rgb(39, 38, 38);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 6px;
+}
+.one-ear-img {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 60px;
+}
+.over{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 0 50px 0;
+}
+.cont{
+    width: 600px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.add-btn{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color:rgb(39, 38, 38) ;
+}
+.add-btn img, p{
+    background-color: inherit;
+    
+}
+.add-btn p{
+    font-size: 20px;
+    
+}
+/* meddle section */
+.m-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+.m-items{
+    list-style: none;
+}
+.m-section{
+    text-align: center;
+}
+.sm{
+    position: relative;
+    left: 100px;
+    top: 50px;
+   
+}
+.bt{
+    width: 50px;
+    position: relative;
+    bottom: 19rem;
+    left: 25rem;
+    margin-bottom: 20px;
+}
+.bat{
+    width: 50px;
+    position: relative;
+    bottom:  19rem;
+    left: 23rem;
+    margin-bottom: 20px;
+}
+.ch{
+    width: 50px;
+    position: relative;
+    bottom: 19rem;
+    left: 23rem;
+    margin-bottom: 20px;
+}
+.mic{
+    width: 50px;
+    position: relative;
+    bottom:  19rem;
+    left: 25rem;
+    margin-bottom: 20px;
+}
