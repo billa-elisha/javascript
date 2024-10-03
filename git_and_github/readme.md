@@ -65,3 +65,9 @@ AND
 - bnaila
 - ghaeof
 
+how to configure your git repo
+
+1. git config --global user.name 'username' this is to add names to the users
+2. git config --global user.email 'useremail' this is to add the user email
+3. git config --global --edit this is use to check your user details
+4. esc :wq is use to exit a command prompt
